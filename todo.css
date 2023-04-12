@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    min-width: 250px;
+    width: 80vw;
+    margin: auto;
+    background-color: #8a1616;
+       
+}
+*{
+    box-sizing:border-box;
+}
+
+h2{
+   margin: 6px;
+   transition: 2s;
+   border-radius: 5px;
+   font-family: "Brush Script MT", cursive;
+   
+
+}
+.c{
+    background-color: rgb(98, 3, 3);
+    padding: 60px 50px;
+    color: rgb(245, 239, 239);
+    text-align: center;
+    border-radius: 20px;
+    border-style: solid ;
+    border-color: black;
+}
+input{
+    margin:0;
+    border: 3px;
+    border-radius: 20px;
+    width: 70%;
+    padding: 10px;
+    float: left;
+    font: size 16px;
+    transition: 1S;
+    border-style: solid ;
+    border-color: black;
+}
+.addbtn{
+    padding: 10px;
+  width: 20%;
+  background: #de6363;
+  color: rgb(249, 244, 244);
+  float: left;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 2s;
+  border-radius: 50px;
+  border-style: solid ;
+  border-color: black;
+}
+.addbtn{
+    background-color: rgb(151, 38, 4);
+    border-style: solid ;
+    border-color: black;
+}
+.close:hover{
+    position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+  
+}
+.close:hover{
+    background-color: rgb(0, 6, 6);
+    color: rgb(245, 246, 246);
+}
